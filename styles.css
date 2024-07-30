@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.wrapper {
+    width: 80vmin;
+    padding: 3em 2em;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.5em;
+    margin: 30px 0;
+}
+
+button {
+    display: block;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    padding: .5em;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
